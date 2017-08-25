@@ -1,14 +1,24 @@
 # rist_test
 
 ## mongodb
-1. $ dnf install mongodb mongodb-server -y
-2. $ sudo service mongod start
-3. $ mongo
+1. <code>$ dnf install mongodb mongodb-server -y</code>
+2. <code>$ sudo service mongod start</code>
+3. <code>$ mongo</code>
 
 ## mongotron
-1. $ git clone git@github.com:officert/mongotron.git
-2. $ cd mongotron/
-3. $ npm install
-4. $ npm start
+1. <code>$ git clone git@github.com:officert/mongotron.git</code>
+2. <code>$ cd mongotron/</code>
+3. <code>$ npm install</code>
+4. <code>$ npm start</code>
 
+## express
++ <code>$ npm install -g express-generator</code>
++ <code>$ express --view ejs</code>
++ <code>$ npm install</code>
++ <code>$ npm start</code>
 
+## appunti
++ scelto nodejs come serverside language
++ scelto ejs come motore templating per il frontend
++ scelto mongodb come database non relazionale
++ html css js come frontend
