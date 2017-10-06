@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<title><%=title%></title>
+	<!-- Bootstrap Core CSS -->
+	<link href='/vendor/bootstrap/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+	<!-- Custom Fonts       -->
+	<link href='/vendor/font-awesome/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+	<link href='/vendor/googleapis/1.css' rel='stylesheet' type='text/css'>
+	<link href='/vendor/googleapis/2.css' rel='stylesheet' type='text/css'>
+	<!-- Plugin CSS         -->
+	<link href='/vendor/magnific-popup/magnific-popup.css' rel='stylesheet' type='text/css'>
+	<!-- Theme CSS          -->
+	<link href='/vendor/creative/css/creative.min.css' rel='stylesheet' type='text/css'>
+	<!-- Datatable CSS      -->
+	<link href='/vendor/datatables/1.10.10/css/jquery.dataTables.css' rel='stylesheet' type='text/css'>
+	<!-- Custom CSS         -->
+	<link href='/stylesheets/style.css' rel='stylesheet' type='text/css'>
+</head>
+<body id='page-top'>
+	<nav id='mainNav' class='navbar navbar-default navbar-fixed-top'>
+		<div class='container-fluid'>
+			<div class='navbar-header'>
+				<button type='button' class='navbar-toggle collapsed' data-toggle='collapse' data-target='#bs-example-navbar-collapse-1'>
+					<span class='sr-only'><%=toggle_navigation%></span><%=menu%><i class='fa fa-bars'></i>
+				</button>
+				<a class='navbar-brand page-scroll' href='#page-top'><%=title%></a>
+			</div>
+			<div class='collapse navbar-collapse' id='bs-example-navbar-collapse-1'><!-- Collect the nav links, forms, and other content for toggling -->
+				<ul class='nav navbar-nav navbar-right'>
+					<li><a class='page-scroll' href='#new_order'><%=new_order%></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<header id='mini-char-container'>
+		<div class='header-content'>
+			<div class='header-content-inner'>
+				<h1 id='homeHeading'><%=title_home%></h1>
+				<h2><%=subtitle_home%></h2>
+				<hr>
+				<p><%=text_home%></p>
+			</div>
+		</div>
+	</header>
+	<!-- ORDINI -->
+	<section id='new_order'>
+		<div class='container-fluid'>
+			<div class='row'>
+				<div class='col-lg-8 col-lg-offset-2 text-center'>
+					<h2 class='section-heading'><%=new_order%></h2>
+					<hr class='primary'><!--light =bianca-->
+				</div>
+			</div>
+			<div class='row'>
+				<form class='form-horizontal' id='newOrderForm'>
+					<div class='form-group'>
+						<label for='newOrderCategory' class='col-sm-2 control-label'><%=category%></label>
+						<div class='col-sm-3'>
+							<select class='form-control ' id='newOrderCategory' name='newOrderCategory'></select>
+						</div>
+						<label for='newOrderProduct' class='col-sm-2 control-label'><%=product%></label>
+						<div class='col-sm-3'>
+							<select class='form-control ' id='newOrderProduct' name='newOrderProduct'></select>
+						</div>
+					</div>
+
+				</form>
+			</div>
+			<button type='button' class='btnX btn-primary btn-sm btn-crea-a-dx sr-button' onclick='refreshModalCombos()'><%=add_product%></button>
+			<button type="button" class="btnX btn-primary btn-sm btn-crea-a-dx sr-button">Effettua Ordine</button>
+		</div>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	</section>
+
+	<!-- custom js script          -->
+	<script src='/javascripts/main.js'></script>
+	<!-- jquery                    -->
+	<script src='/vendor/jquery-3.2.1.min.js'></script>
+	<!-- Bootstrap Core JavaScript -->
+	<script src='/vendor/bootstrap/js/bootstrap.min.js'></script>
+	<!-- Plugin JavaScript         -->
+	<script src='/vendor/jquery-easing/1.3/jquery.easing.min.js'></script>
+	<script src='/vendor/jquery-ui.min.js'></script>
+	<script src='/vendor/scrollreveal/scrollreveal.min.js'></script>
+	<script src='/vendor/magnific-popup/jquery.magnific-popup.min.js'></script>
+	<!-- Theme JavaScript          -->
+	<script src='/vendor/creative/creative.min.js'></script>
+</body>
+</html>

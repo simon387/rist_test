@@ -22,3 +22,5 @@
 + scelto ejs come motore templating per il frontend
 + scelto mongodb come database non relazionale
 + html css js come frontend
+
+//Defrovils - Express Food Industries
