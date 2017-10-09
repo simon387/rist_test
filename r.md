@@ -23,4 +23,5 @@
 + scelto mongodb come database non relazionale
 + html css js come frontend
 
-//Defrovils - Express Food Industries
+#op
++ sudo systemctl start mongod
