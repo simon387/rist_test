@@ -21,7 +21,7 @@ exports.list = function(req, res) {
 }
 
 /**crea cat di test */
-exports.post = function(req, res) {
+exports.create = function(req, res) {
 	 //new Thread({title: req.body.title, author: req.body.author}).save();
 	 console.log('salvo su db')
 	 new productCategory({title: "titolo_di_test"}).save();
