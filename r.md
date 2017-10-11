@@ -23,5 +23,6 @@
 + scelto mongodb come database non relazionale
 + html css js come frontend
 
-#op
+# op
 + sudo systemctl start mongod
++ insertOne{} su mongotron funziona

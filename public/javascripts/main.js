@@ -4,7 +4,7 @@
 
 const localhost = 'http://localhost:3000/';
 
-$(document).ready(function() {
+$(document).ready(() => {
 
 	refreshComboByFetchAndSelector('productCategory', '#newOrderProductCategory', 'title');
 	refreshComboByFetchAndSelector('product', '#newOrderProduct', 'title');
