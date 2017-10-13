@@ -26,3 +26,4 @@
 # op
 + sudo systemctl start mongod
 + insertOne{} su mongotron funziona
+|
