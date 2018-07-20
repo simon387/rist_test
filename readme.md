@@ -25,5 +25,6 @@
 
 # op
 + sudo systemctl start mongod
++ [http://localhost:3000/ordini](http://localhost:3000/ordini)
 + insertOne{} su mongotron funziona
 |
